@@ -1,0 +1,114 @@
+Another command (pid=25847) is running. Waiting for it to complete on the server (server_pid=13309)...
+INFO: Options provided by the client:
+  Inherited 'common' options: --isatty=0 --terminal_columns=80
+INFO: Reading rc options for 'run' from /home/ud202181190/work/alpa_exp/build_jaxlib/.bazelrc:
+  Inherited 'common' options: --experimental_repo_remote_exec
+INFO: Reading rc options for 'run' from /home/ud202181190/work/alpa_exp/build_jaxlib/.bazelrc:
+  Inherited 'build' options: --apple_platform_type=macos --macos_minimum_os=10.14 --announce_rc --define open_source_build=true --spawn_strategy=standalone --enable_platform_specific_config --experimental_cc_shared_library --define=no_aws_support=true --define=no_gcp_support=true --define=no_hdfs_support=true --define=no_kafka_support=true --define=no_ignite_support=true --define=grpc_no_ares=true -c opt --config=short_logs --copt=-DMLIR_PYTHON_PACKAGE_PREFIX=jaxlib.mlir. --@org_tensorflow//tensorflow/compiler/xla/python:enable_gpu=false --@org_tensorflow//tensorflow/compiler/xla/python:enable_tpu=false --@org_tensorflow//tensorflow/compiler/xla/python:enable_plugin_device=false
+INFO: Reading rc options for 'run' from /home/ud202181190/work/alpa_exp/build_jaxlib/.jax_configure.bazelrc:
+  Inherited 'build' options: --strategy=Genrule=standalone --repo_env PYTHON_BIN_PATH=/home/ud202181190/anaconda3/envs/huwf_test/bin/python3 --action_env=PYENV_ROOT --python_path=/home/ud202181190/anaconda3/envs/huwf_test/bin/python3 --distinct_host_configuration=false --override_repository=org_tensorflow=/home/ud202181190/work/alpa_exp/build_jaxlib/../third_party/tensorflow-alpa --config=avx_posix --config=mkl_open_source_only --config=cuda --action_env TF_NCCL_VERSION=2.8.4
+INFO: Found applicable config definition build:short_logs in file /home/ud202181190/work/alpa_exp/build_jaxlib/.bazelrc: --output_filter=DONT_MATCH_ANYTHING
+INFO: Found applicable config definition build:avx_posix in file /home/ud202181190/work/alpa_exp/build_jaxlib/.bazelrc: --copt=-mavx --host_copt=-mavx
+INFO: Found applicable config definition build:mkl_open_source_only in file /home/ud202181190/work/alpa_exp/build_jaxlib/.bazelrc: --define=tensorflow_mkldnn_contraction_kernel=1
+INFO: Found applicable config definition build:cuda in file /home/ud202181190/work/alpa_exp/build_jaxlib/.bazelrc: --repo_env TF_NEED_CUDA=1 --action_env TF_CUDA_COMPUTE_CAPABILITIES=sm_35,sm_52,sm_60,sm_70,compute_80 --crosstool_top=@local_config_cuda//crosstool:toolchain --@local_config_cuda//:enable_cuda --@org_tensorflow//tensorflow/compiler/xla/python:enable_gpu=true --define=xla_python_enable_gpu=true
+INFO: Found applicable config definition build:linux in file /home/ud202181190/work/alpa_exp/build_jaxlib/.bazelrc: --config=posix --copt=-Wno-unknown-warning-option --copt=-Wno-stringop-truncation --copt=-Wno-array-parameter
+INFO: Found applicable config definition build:posix in file /home/ud202181190/work/alpa_exp/build_jaxlib/.bazelrc: --copt=-fvisibility=hidden --copt=-Wno-sign-compare --cxxopt=-std=c++17 --host_cxxopt=-std=c++17
+DEBUG: /home/ud202181190/.cache/bazel/_bazel_ud202181190/dbd195a3228c303aefb3ff22ccb324f5/external/bazel_tools/tools/cpp/lib_cc_configure.bzl:118:10: 
+Auto-Configuration Warning: 'TMP' environment variable is not set, using 'C:\Windows\Temp' as default
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //build:build_wheel (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //build:build_wheel (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+[119 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 0s local ... (48 actions running)
+[120 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 4s local ... (48 actions, 47 running)
+[124 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 6s local ... (47 actions, 46 running)
+[134 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 7s local ... (47 actions, 46 running)
+[140 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 9s local ... (48 actions running)
+[143 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 11s local ... (48 actions, 47 running)
+[148 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 14s local ... (48 actions, 47 running)
+[161 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 17s local ... (48 actions, 47 running)
+[176 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 20s local ... (47 actions, 46 running)
+[189 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 24s local ... (48 actions, 47 running)
+[203 / 3,637] Compiling absl/time/internal/cctz/src/civil_time_detail.cc; 28s local ... (48 actions, 47 running)
+[208 / 3,637] Compiling absl/strings/substitute.cc; 33s local ... (48 actions running)
+[220 / 3,637] Compiling absl/strings/escaping.cc; 40s local ... (48 actions, 47 running)
+[237 / 3,637] Compiling jaxlib/lapack.cc; 51s local ... (48 actions, 47 running)
+[252 / 3,637] Compiling jaxlib/lapack.cc; 59s local ... (48 actions, 47 running)
+[258 / 3,637] Compiling jaxlib/lapack.cc; 69s local ... (48 actions running)
+[269 / 3,637] Compiling jaxlib/lapack.cc; 88s local ... (48 actions running)
+[288 / 3,637] Compiling jaxlib/lapack.cc; 103s local ... (48 actions, 47 running)
+[319 / 3,637] Compiling jaxlib/lapack.cc; 119s local ... (48 actions, 47 running)
+[330 / 3,637] Compiling jaxlib/lapack.cc; 139s local ... (48 actions running)
+[353 / 3,637] Compiling jaxlib/lapack.cc; 161s local ... (48 actions running)
+[373 / 3,637] Compiling jaxlib/lapack.cc; 186s local ... (48 actions running)
+[382 / 3,637] Compiling jaxlib/lapack.cc; 215s local ... (48 actions, 47 running)
+[420 / 3,637] Compiling jaxlib/lapack.cc; 250s local ... (48 actions, 47 running)
+[441 / 3,637] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 288s local ... (48 actions, 47 running)
+[494 / 3,637] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 333s local ... (48 actions, 47 running)
+[601 / 3,637] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 385s local ... (48 actions, 47 running)
+[726 / 3,702] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 445s local ... (47 actions, 46 running)
+[815 / 3,794] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 518s local ... (48 actions, 47 running)
+[889 / 4,099] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 602s local ... (48 actions, 47 running)
+[1,040 / 5,383] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 693s local ... (48 actions, 47 running)
+[1,068 / 5,383] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 800s local ... (48 actions, 47 running)
+[1,079 / 5,383] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 929s local ... (48 actions running)
+[1,092 / 5,383] Compiling tensorflow/compiler/xla/service/cpu/runtime_conv2d.cc; 1069s local ... (48 actions running)
+[1,138 / 5,383] Compiling tensorflow/compiler/xla/service/cpu/runtime_single_threaded_matmul.cc; 586s local ... (48 actions, 47 running)
+[1,183 / 5,383] Compiling tensorflow/compiler/xla/service/cpu/runtime_single_threaded_matmul.cc; 783s local ... (48 actions running)
+[1,252 / 5,383] Compiling tensorflow/compiler/xla/service/cpu/runtime_single_threaded_matmul.cc; 1003s local ... (48 actions running)
+[1,355 / 5,383] Compiling tensorflow/compiler/xla/service/algebraic_simplifier.cc; 925s local ... (48 actions, 47 running)
+[1,446 / 5,383] Compiling tensorflow/compiler/xla/service/algebraic_simplifier.cc; 1215s local ... (48 actions running)
+[1,502 / 5,383] Compiling src/cpu/x64/jit_uni_pool_kernel.cpp; 538s local ... (48 actions, 47 running)
+[1,574 / 5,383] Compiling src/cpu/x64/jit_brgemm_conv.cpp; 810s local ... (48 actions, 47 running)
+[1,726 / 5,603] Compiling src/cpu/rnn/ref_rnn.cpp; 1199s local ... (48 actions, 47 running)
+[1,883 / 5,867] Compiling src/cpu/rnn/ref_rnn.cpp; 1702s local ... (48 actions, 47 running)
+[2,136 / 6,316] Compiling src/cpu/rnn/ref_rnn.cpp; 2287s local ... (48 actions, 47 running)
+[2,375 / 6,542] Compiling src/cpu/cpu_rnn_list.cpp; 2036s local ... (48 actions, 47 running)
+[2,563 / 6,738] Compiling tensorflow/compiler/xla/service/hlo_evaluator.cc; 1279s local ... (48 actions, 47 running)
+[3,003 / 7,540] Compiling tensorflow/core/util/batch_util.cc; 1501s local ... (48 actions running)
+[3,628 / 8,122] Compiling tensorflow/compiler/xla/service/cpu/runtime_matmul.cc; 1376s local ... (48 actions, 47 running)
+[4,387 / 8,313] Compiling tensorflow/compiler/xla/service/cpu/runtime_matmul.cc; 2545s local ... (48 actions, 47 running)
+[4,653 / 8,313] Compiling tensorflow/compiler/xla/service/cpu/runtime_matmul.cc; 3890s local ... (48 actions, 47 running)
+[4,940 / 8,313] Compiling tensorflow/compiler/xla/service/cpu/runtime_matmul.cc; 5441s local ... (48 actions running)
+[5,392 / 8,313] Compiling llvm/lib/Object/ELFObjectFile.cpp; 469s local ... (48 actions running)
+[6,636 / 8,313] Compiling llvm/lib/Passes/PassBuilder.cpp; 1831s local ... (48 actions, 47 running)
+[7,220 / 8,313] Compiling mlir/lib/Dialect/LLVMIR/IR/LLVMDialect.cpp; 1591s local ... (48 actions, 47 running)
+[7,793 / 8,313] Compiling mlir/lib/Dialect/SPIRV/IR/SPIRVDialect.cpp; 2164s local ... (48 actions, 47 running)
+[8,303 / 8,380] Compiling tensorflow/compiler/xla/mlir_hlo/lib/Transforms/bufferize_pass.cc; 596s local ... (40 actions, 39 running)
+Target //build:build_wheel up-to-date:
+  bazel-bin/build/build_wheel
+INFO: Elapsed time: 24413.114s, Critical Path: 5659.46s
+INFO: 8380 processes: 1260 internal, 7120 local.
+INFO: Build completed successfully, 8380 total actions
+INFO: Running command line: bazel-bin/build/build_wheel '--output_path=/home/ud202181190/work/alpa_exp/build_jaxlib/dist' '--cpu=x86_64' --dev_install
+INFO: Build completed successfully, 8380 total actions
+Dev Install:
+Run "pip install -e ." once in /home/ud202181190/work/alpa_exp/build_jaxlib/dist
+
+     _   _  __  __
+    | | / \ \ \/ /
+ _  | |/ _ \ \  /
+| |_| / ___ \/  \
+ \___/_/   \/_/\_\
+
+
+Bazel binary path: ./bazel-5.1.1-linux-x86_64
+Bazel version: 5.1.1
+Python binary path: /home/ud202181190/anaconda3/envs/huwf_test/bin/python3
+Python version: 3.8
+NumPy version: 1.24.3
+MKL-DNN enabled: yes
+Target CPU: x86_64
+Target CPU features: release
+CUDA enabled: yes
+NCCL enabled: yes
+TPU enabled: no
+Remote TPU enabled: no
+ROCm enabled: no
+Plugin device enabled: no
+
+Building XLA and installing it in the jaxlib source tree...
+./bazel-5.1.1-linux-x86_64 run --verbose_failures=true :build_wheel -- --output_path=/home/ud202181190/work/alpa_exp/build_jaxlib/dist --cpu=x86_64 --dev_install

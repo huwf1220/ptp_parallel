@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message ReindexItem {
+    int64 inst_leaf_id = 1;
+    int64 inst_id = 2;
+    int32 stra_num = 3;
+    bool deps_by_multi_pb = 4;
+    bool is_key_inst = 5;
+
+    repeated int32 deps_pb_id = 6;
+    repeated ReindexData reindexing = 7;
+}
+
+message ReindexData {
+    repeated int32 reindex = 1;
+}
+
+message ReindexItemList {
+    repeated ReindexItem reindex_items = 1;
+}

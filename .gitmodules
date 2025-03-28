@@ -1,0 +1,9 @@
+[submodule "third_party/jax"]
+	path = third_party/jax
+	url = git://github.com/google/jax.git
+[submodule "third_party/tensorflow-alpa"]
+	path = third_party/tensorflow-alpa
+	url = git://github.com/alpa-projects/tensorflow-alpa.git
+[submodule "tests/shard_parallel/llama-2-jax"]
+	path = tests/shard_parallel/llama-2-jax
+	url = https://github.com/ayaka14732/llama-2-jax

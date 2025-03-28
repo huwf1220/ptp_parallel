@@ -14,11 +14,11 @@ It analyzes the IR of the XLA compiler to extract a sequence of ParallelBlocks a
 
 clone this repo:
 
-    git clone https://github.com/xxxxxxxxxxxxxxxxxxxxxxx
+    git clone git@github.com:huwf1220/cfp_parallel.git
 
 Install CFP modified alpa python package
 
-    cd cfp_exp
+    cd cfp_parallel
     pip3 instal -e ".[dev]"
 
 Build and install Jaxlib. The Jaxlib contains Alpa's C++ code modified by CFP.
@@ -223,7 +223,7 @@ You can check the difference between this branch with Alpa `d987466` excluding t
 Checkout to `alpa_default` branch.
 
 ```
-cd cfp_exp
+cd cfp_parallel
 git checkout -b alpa_default
 ```
 

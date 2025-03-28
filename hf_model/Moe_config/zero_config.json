@@ -1,0 +1,13 @@
+{
+    "zero_optimization": {
+        "stage": 0
+    },
+    "fp16": {
+        "enabled": true,
+        "auto_cast":true
+    },
+    "train_batch_size": 32,
+    "gradient_accumulation_steps": 1,
+    "loss_scale": 0,
+    "initial_scale_power": 1
+}

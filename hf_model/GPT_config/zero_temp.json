@@ -1,0 +1,11 @@
+
+{
+    "zero_optimization": {
+        "stage": 0
+    },
+    "fp16": {
+        "enabled": false
+    },
+    "train_batch_size": TBS,
+    "gradient_accumulation_steps": 1
+}
